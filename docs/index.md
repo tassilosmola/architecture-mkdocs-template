@@ -35,7 +35,7 @@ Introduction
 
 **<Diagram or Table\>**
 
-![test](/img/test.drawio.png)
+![test](img/test.drawio.png)
 
 **<optionally: Explanation of external domain interfaces\>**
 
