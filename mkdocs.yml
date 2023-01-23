@@ -1,0 +1,21 @@
+site_name: arc42 Template
+theme:
+  name: material
+  palette:
+    primary: blue grey
+    accent: light blue
+  logo: img/arc42-logo.png
+markdown_extensions:
+  - toc:
+      toc_depth: 4
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Architecture: section/index.md
+
